@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_outer_classname = "ProtoData";
+option java_package = "com.example.kamelkafkarest";
+
+message RequestData {
+  string ipAddress = 1;
+  string timestamp = 2;
+  string date = 3;
+}
